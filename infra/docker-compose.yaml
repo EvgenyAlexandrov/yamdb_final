@@ -11,6 +11,7 @@ services:
     build:
       context: ../
       dockerfile: api_yamdb/Dockerfile
+    image: nanofullerene/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
