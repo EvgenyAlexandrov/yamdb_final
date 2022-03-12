@@ -2,9 +2,9 @@ FROM python:3.7-slim
 
 RUN mkdir /app
 
-COPY requirements.txt /app
+COPY requirements.txt /app/api_yamdb
 
-RUN pip3 install -r /app/api_yamdb/requirements.txt --no-cache-dir
+RUN pip3 install -r /app/requirements.txt --no-cache-dir
 
 COPY api_yamdb/ /app
 
