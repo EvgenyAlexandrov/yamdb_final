@@ -45,3 +45,4 @@ jobs:
         with:
           push: true
           tags: nanofullerene/api_yamdb:latest
+          file: api_yamdb/Dockerfile
