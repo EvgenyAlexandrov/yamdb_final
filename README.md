@@ -48,3 +48,5 @@ docker-compose down -v
 Python 3.7, Django 2.2, DRF, JWT, Docker
 ### Автор
 [Евгений Александров](https://github.com/EvgenyAlexandrov)
+### Ссылка на документацию к проекту
+[Ссылка](yatubeproject.hopto.org/redoc)
